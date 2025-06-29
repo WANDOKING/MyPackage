@@ -1,7 +1,7 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
     URL https://github.com/WANDOKING/MyPackage
-    REF a06117f86eee38e35e6ad3f2de9c8d545157b72a
+    REF 4d840b250c187226f94924929341f2edfd172cf6
 )
  
 vcpkg_cmake_configure(
