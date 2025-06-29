@@ -4,7 +4,7 @@
 
 void HelloPrinter::ShowVersion()
 {
-    std::cout << "HelloPrinter Version 1.0.1" << std::endl;
+    std::cout << "HelloPrinter Version 1.0.2" << std::endl;
     std::cout << "This is a simple example of a C++ class that prints a message." << std::endl;
 }
 
