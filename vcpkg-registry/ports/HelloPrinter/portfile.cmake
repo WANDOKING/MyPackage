@@ -1,11 +1,11 @@
 vcpkg_from_git(
     OUT_SOURCE_PATH SOURCE_PATH
-    URL https://github.com/WANDOKING/HelloPrinter
-    REF 8ca68fbeecaf8068a2d03495348fb9dd7b4b90cf
+    URL https://github.com/WANDOKING/MyPackage
+    REF fd5229ff2157283a7b7adee3209132443e84d59c
 )
  
 vcpkg_cmake_configure(
-    SOURCE_PATH "${SOURCE_PATH}/MyPrinter/MyCompressor"
+    SOURCE_PATH "${SOURCE_PATH}/MyPackage/HelloPrinter"
 )
  
 vcpkg_cmake_build()
