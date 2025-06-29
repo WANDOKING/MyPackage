@@ -12,7 +12,7 @@ add_library(HelloPrinter STATIC
 target_link_libraries(HelloPrinter PRIVATE fmt::fmt)
  
 # 설치 설정
-install(TARGETS MyCompressor
+install(TARGETS HelloPrinter
         ARCHIVE DESTINATION lib
         LIBRARY DESTINATION lib
         RUNTIME DESTINATION bin
