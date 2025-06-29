@@ -3,6 +3,10 @@
     "HelloPrinter": {
       "baseline": "1.0.0",
       "port-version": 0
+    },
+    "hello-printer": {
+      "baseline": "1.0.0",
+      "port-version": 0
     }
   }
 }
